@@ -45,11 +45,11 @@ questions = [
         }
     },
     {
-        "question": "국제무역의 관세는 국내 생산을 장려하기 위해 중요하다.",
+        "question": "국제 무역에 대한 관세는 국내 생산을 장려하기 위해 중요하다.",
         "effect": {
-            "econ": -5,
+            "econ": 5,
             "dipl": 0,
-            "govt": 10,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -59,7 +59,7 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "도로나​ ​전기와 같은 ​공공재는​ ​공영화되어야​ ​한다.",
+        "question": "도로나​ ​전기와 같은 ​기초재는​ ​공영화되어야​ ​한다.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -122,7 +122,7 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 5
         }
     },
     {
@@ -265,7 +265,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "마약​ ​사용​ ​등의​ ​피해자가​ ​없는​ ​범죄는​ ​범죄가​ ​되어서는​ ​안​ ​된다.",
+        "question": "의사 보조 자살은 합법적이어야 한다.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -401,7 +401,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": -10
+            "scty": -5
         }
     },
     {
@@ -543,7 +543,7 @@ questions = [
         "question": "정당한 사유가 없는 총기 소유는 금지해야 한다.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
@@ -604,10 +604,10 @@ questions = [
         }
     },
     {
-        "question": "정부는 국경 내부의 사람들을 고려하는 만큼, 외부의 사람들에게도 신경을 써야 한다.",
+        "question": "정부는 내국인을 고려하는 만큼, 외국인에게도 신경을 써야 한다.",
         "effect": {
             "econ": 10,
-            "dipl": 10,
+            "dipl": 0,
             "govt": 0,
             "scty": 0
         }
